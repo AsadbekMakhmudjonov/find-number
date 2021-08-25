@@ -12,17 +12,22 @@
 
   <div class="container-made container-sm py-5">
 
-    <h1 class="text-center mb-5">TOPIC</h1>
+    <h1 class="text-center mb-5">Find number(1-100)</h1>
 
     <form class="js-form" action="https://echo.htmlacademy.ru" method="GET">
        <div class="box row">
 
-        <div class="col-lg-4">
-          <input class="js-input form-control col-lg-4 d-block mb-2" type="text" required>
+        <div class="col-lg-4 position-relative">
+          <label class="position-relative d-flex">
+            <input class="js-input form-control col-lg-4 d-block mb-2" type="number" name="input"
+            placeholder="Enter number" required>
+            <span class="badge bg-danger">0</span>
+          </label>
+
         </div>
 
          <div class="col-lg-4">
-           <button class="js-submit btn-danger form-control col-lg-4" type="submit">Submit</button>
+           <button class="js-submit btn-danger form-control col-lg-4 mb-2" type="submit">Submit</button>
          </div>
 
         <div class="col-lg-4">

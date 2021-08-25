@@ -1,3 +1,16 @@
 .container-made{
   max-width: 800px;
 }
+
+.badge{
+  top:50%;
+  transform: translateY(-15px);
+  right: 15px;
+  position: absolute;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
